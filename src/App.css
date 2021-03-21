@@ -1,11 +1,12 @@
 .App {
-  text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin:  10%;
+ padding: 5%;
+ border: solid 1px black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,17 +14,20 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form {
+  background-color: #ffffff;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: flex-start;
 }
-
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  height: fit-content;
+}
 .App-link {
   color: #61dafb;
 }
