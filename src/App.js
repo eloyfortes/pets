@@ -24,6 +24,7 @@ function App() {
     const newData = [...data, form];
 
     setData(newData);
+    setForm(formulario);
 
   }
   const setInput = (newValue) => {
